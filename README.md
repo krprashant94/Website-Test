@@ -29,9 +29,9 @@ c: //button[@id="my_btn"]
 h: //div[@id="MC8mtf"]
 w: 1
 s: 200
-t: //input[@id="name"] Hello world
-t: //input[@id="email"] CONTROL a
-t: //input[@id="search"] RETURN
+t: //input[@id="name"]; Hello world
+t: //input[@id="email"]; CONTROL a
+t: //input[@id="search"]; RETURN
 j: console.log("Pass")
 w: 1
 ```
@@ -59,9 +59,9 @@ xpath : xpath of element where to click
 ### Type a text
 
 Syntax: 
- - `T: xpath <your_text>`
- - `T: xpath <special_key> <with_key>`
- - `T: xpath <special_key> <with_key>`
+ - `T: xpath; <your_text>`
+ - `T: xpath; <special_key> <with_key>`
+ - `T: xpath; <special_key> <with_key>`
 
 Example:
 ```
